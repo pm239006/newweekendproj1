@@ -1,0 +1,105 @@
+.box1,  .box3, .box4, .box6, .box7, .box9{
+    background-color: #0D6EFD;
+    overflow: hidden;
+    height: 128px;
+    width:128px;
+    min-width: auto;
+    max-height: 35vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 25px;
+}
+
+
+.box2,.box5,.box8 {
+    background-color: white;
+    overflow: hidden;
+    height: 128px;
+    width:128px;
+    min-width: auto;
+    max-height: 35vh;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 25px;
+}
+
+
+.card-body h2{
+    font-size: 28px;
+}
+.grid{
+display: flex;
+padding: 15px 10px;
+flex-direction: row;
+align-items: center;
+gap:20px;
+width:400px;
+}
+
+.hero{
+    margin-bottom: 20px;
+}
+
+.card-body{
+    text-align: left;
+    justify-content: center;
+    width: 750px;
+
+}
+.card{
+    margin-top: 50px;
+    border: none;
+}
+
+.box1{
+    border-radius: 60px 0px 0px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box2{
+    border-radius: 60px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box3{
+    border-radius: 0px 60px 0px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box4{
+    border-radius: 60px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box5{
+    border-radius: 60px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box6{
+    border-radius: 60px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box7{
+    border-radius: 0px 0px 0px 60px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box8{
+    border-radius: 60px 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.box9{
+    border-radius: 60px 0px 0px 60px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.btn1{
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+}
+.btn{
+    border-radius: 8px;
+    gap:10px;
+
+}

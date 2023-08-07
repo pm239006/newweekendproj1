@@ -1,0 +1,36 @@
+body {
+}
+.container {
+    display: flex;
+}
+.header1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+h2 {
+    font-size: 25px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+}
+/* . {
+    width: 75px;
+    height: 75px;
+} */
+button {
+    background-color: white;
+    border: 2px solid #0D6EFD;
+    border-radius: 10px;
+    width: 125px;
+}
